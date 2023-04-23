@@ -1,0 +1,33 @@
+.NavigationBar{
+    width: 80%;
+    height: 100px; /* set a fixed height for the navigation bar */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.NavigationBar:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+    
+}
+
+.NavItem {
+    float: left;
+    width: 33.33%;
+    background-color: white;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
