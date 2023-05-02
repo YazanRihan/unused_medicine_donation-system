@@ -2,7 +2,7 @@ import * as React from 'react';
 import pills from './images/pills.jpg';
 import './Homepage.css';
 import Button from '@mui/material/Button';
-import MainBar from './MainBar';
+import {Link} from 'react-router-dom';
 
 
 
@@ -12,7 +12,6 @@ class Homepage extends React.Component {
         return (
             <div>
             
-            <MainBar/>
             
             <div class="dividor">
             
@@ -20,7 +19,7 @@ class Homepage extends React.Component {
 
                   <h1 class="slogan">Medicine Is Not A Book But Mind, Not A Business But Life.</h1> 
 
-                  <Button variant='contained' color='secondary' size='large' style={{width: '200px', height: '100px', color: '#ffffff', fontSize:'36px', marginTop:     '100px'}}> Donate</Button>
+                  <Button variant='contained' color='secondary' size='large' style={{width: '200px', height: '100px', color: '#ffffff', fontSize:'36px', marginTop:'100px'}}><Link to="/Donate" class="DonateLink">Donate</Link></Button>
 
                 </div>
 

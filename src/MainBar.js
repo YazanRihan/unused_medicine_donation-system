@@ -1,21 +1,20 @@
 import * as React from 'react';
-import "./MainBar.css"
-import logo from "./images/logo.png"
+import "./MainBar.css";
+import logo from "./images/logo.png";
+import {Link} from 'react-router-dom';
 
 class MainBar extends React.Component {
     
-    handleClick = (link) => {
-        console.log(link);
-    }
+    
     
     render () {
         return (
            <div class="NavigationBar">
                 
-                <img onClick={() => this.handleClick("./Home")} class="NavItem" style={{width:'300px'}} src={logo}/>
-                <div onClick={() => this.handleClick("./Home")} class="NavItem">Home</div>
-                <div onClick={() => this.handleClick("./Home")} class="NavItem">About</div>
-                <div onClick={() => this.handleClick("./Home")} class="NavItem" style={{backgroundColor: '#61dafb'}}>Sign-In</div>
+                <img alt='logo' class="NavItem" style={{width:'300px'}} src={logo}/>
+                <div class="NavItem">< Link to="/Homepage" class="Link">Home</Link></div>
+                <div class="NavItem"><Link to="/About" class="Link">About</Link></div>
+                <div class="NavItem" style={{backgroundColor: '#61dafb'}}><Link to="/SignIn" class="SignIn">Sign-In</Link></div>
            </div> 
 
         );

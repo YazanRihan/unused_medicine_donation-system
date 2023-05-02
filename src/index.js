@@ -1,20 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { AppRoutes } from './AppRoutes';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 
+const theme = createTheme({
+  palette: {
+    primary: {
+      // Purple and green play nicely together.
+      main: '#1a587c',
+    },
+    secondary: {
+      // This is green.A700 as hex.
+      main: '#57b9da',
+    },
+  },
+});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   
-  <React.StrictMode>
-    
-    <App/>
-    
-  </React.StrictMode>
-  
+  <ThemeProvider theme={theme}>
+  <Router>
+    <AppRoutes />
+  </Router>
+  </ThemeProvider>,
+  document.getElementById('root')
 );
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

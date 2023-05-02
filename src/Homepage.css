@@ -36,3 +36,8 @@
   max-width: 90%;
   border-radius: 35px;
 }
+
+.DonateLink{
+  text-decoration: none;
+  color: white;
+}
