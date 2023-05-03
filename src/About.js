@@ -25,18 +25,13 @@ class About extends React.Component {
         </section>
     <section className="about-section">
           <h2>Values</h2>
-          <ul>
-           1. Accessibility: We believe that everyone should have access to essential medications, regardless of their socioeconomic status or geographic location
-          </ul>
-          <ul>
-          2. Sustainability: We are committed to reducing medication waste and minimizing the environmental impact of unused medications.
-          </ul>
-          <ul>
-          3. Collaboration: We work with healthcare providers, community organizations, and other stakeholders to build a network of support for those in need.
-          </ul>
-          <ul>
-          4. Innovation: We embrace new technologies and approaches to maximize the impact of our mission and continually improve our services. 
-          </ul>
+          <ol>
+          <li>Accessibility: We believe that everyone should have access to essential medications, regardless of their socioeconomic status or geographic location</li>
+          <li> Sustainability: We are committed to reducing medication waste and minimizing the environmental impact of unused medications</li>
+          <li>Collaboration: We work with healthcare providers, community organizations, and other stakeholders to build a network of support for those in need.
+          </li>
+          <li>Innovation: We embrace new technologies and approaches to maximize the impact of our mission and continually improve our services.</li>
+          </ol>
         </section>
       </div>
   )}

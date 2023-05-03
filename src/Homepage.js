@@ -27,6 +27,11 @@ class Homepage extends React.Component {
                   <img class="pills" src={pills} alt='Pills'></img>
                 </div>
             </div>
+
+            
+            <div>
+
+            </div>
             </div>
         )
     }
