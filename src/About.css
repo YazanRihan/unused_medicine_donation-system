@@ -1,0 +1,55 @@
+/* About.css */
+
+.about {
+    /*background-color: #4a4a4a;*/
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+   
+  }
+  
+  .about h1 {
+    text-decoration: underline;
+    text-decoration-color: #20abb5;
+    color: #20abb5;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .Mission,
+  .Vision,
+  .Values {
+    margin-bottom: 40px;
+  }
+  
+  .Mission h2,
+  .Vision h2,
+  .Values h2 {
+    text-decoration: underline;
+    text-decoration-color: rgb(26, 195, 218);
+    color: rgb(26, 195, 218);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .Mission p,
+  .Vision p,
+  .Values p,
+  .Values ol {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .Values ol {
+    padding-left: 20px;
+  }
+  
+  .Values li {
+    margin-bottom: 10px;
+  }
+  
