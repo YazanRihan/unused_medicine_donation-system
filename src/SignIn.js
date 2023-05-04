@@ -1,8 +1,3 @@
-
-Sure, here's the code with comments:
-
-javascript
-Copy code
 import React, { Component } from 'react';
 import './SignIn.css'; // Import the CSS file you'll create later
 import Button from '@mui/material/Button';
