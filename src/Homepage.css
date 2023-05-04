@@ -1,24 +1,35 @@
-
 .sloganC {
   width: 50%;
   float: left;
   justify-content: space-between;
-	flex-wrap: wrap;
+  flex-wrap: wrap;
   text-align: left;
   align-items: center;
   display: flex;
   flex-direction: column;
-  
-  
-  
 }
+
+/* Sets the style for the slogan text container */
+/* It sets the width to 50% of its container */
+/* It floats it to the left */
+/* It justifies the content to space-between, which evenly distributes the space between the child elements */
+/* It wraps the child elements when there is not enough space */
+/* It aligns the child elements to the center */
+/* It displays the child elements using flexbox */
+/* It sets the flex direction to column */
+
 .slogan {
   color: #ffffff;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 72px;
   flex-wrap: wrap;
-
 }
+
+/* Sets the style for the slogan text */
+/* It sets the color of the text to white */
+/* It sets the font family to Georgia, Times New Roman, Times, or serif */
+/* It sets the font size to 72px */
+/* It wraps the text when there is not enough space */
 
 .pillsC{
   width: 50%;
@@ -26,18 +37,33 @@
   text-align: center;
 }
 
+/* Sets the style for the pills container */
+/* It sets the width to 50% of its container */
+/* It floats it to the right */
+/* It aligns the content to the center horizontally */
+
 .dividor{
   margin: 50px;
   padding: 50px;
-  
 }
+
+/* Sets the style for the dividing section */
+/* It sets the margin and padding to 50px */
 
 .pills{
   max-width: 90%;
   border-radius: 35px;
 }
 
+/* Sets the style for the pills image */
+/* It sets the maximum width to 90% of its container */
+/* It sets the border radius to 35px */
+
 .DonateLink{
   text-decoration: none;
   color: white;
 }
+
+/* Sets the style for the donate button link */
+/* It removes the underline decoration from the link */
+/* It sets the color of the text to white */

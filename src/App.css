@@ -1,38 +1,38 @@
 .App {
-  text-align: center;
+  text-align: center; /* Center the content of the top-level element of the React component horizontally */
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 40vmin; /* Set the height of the logo to 40% of the viewport height */
+  pointer-events: none; /* Disable pointer events on the logo element */
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s linear; /* Apply an infinite, linear animation to the logo element, but only if the user has not requested a reduced-motion experience */
   }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #282c34; /* Set the background color of the header element to a dark gray */
+  min-height: 100vh; /* Set the minimum height of the header element to 100% of the viewport height */
+  display: flex; /* Use flexbox to control the layout of the header content */
+  flex-direction: column; /* Set the direction of the flexbox layout to column */
+  align-items: center; /* Center the items along the horizontal axis of the flexbox layout */
+  justify-content: center; /* Center the items along the vertical axis of the flexbox layout */
+  font-size: calc(10px + 2vmin); /* Set the font size of the header text to be responsive to the viewport size */
+  color: white; /* Set the text color of the header text to white */
 }
 
 .App-link {
-  color: #61dafb;
+  color: #61dafb; /* Set the color of links within the React component to a light blue */
 }
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(0deg); /* Define the starting point of the logo spin animation */
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(360deg); /* Define the ending point of the logo spin animation */
   }
 }

@@ -1,56 +1,61 @@
+/* Styling for the form container */
 .formDiv {
-    text-align: left;
-    background-color: white;
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    margin-top: 50px;
-    border-radius: 5px;
-    padding: 15px
-    
-}
-.medicineTypesContainer {
-    display: grid;
-    flex-wrap: wrap;
-    grid-template-columns: 20% 20%;
-    align-self: center;
-    position: relative;
-
-}
-
-.typeBox{
-    flex: 1 0 calc(25% - 10px);
-    margin: 5px;
-    background: #cccccc;
-    text-align: center;
-    border-radius: 3px;
-    width: 90%;
-    font-size: larger;
-    height: 30px;
+    text-align: left; /* Text alignment is set to left */
+    background-color: white; /* Background color is set to white */
+    width: 40%; /* Width is set to 40% of the parent container */
+    margin-left: auto; /* The left margin is set to automatic */
+    margin-right: auto; /* The right margin is set to automatic */
+    justify-content: center; /* Content is horizontally centered */
+    margin-top: 50px; /* Top margin is set to 50 pixels */
+    border-radius: 5px; /* Border radius is set to 5 pixels */
+    padding: 15px; /* Padding is set to 15 pixels */
   }
-
-.formLabel {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: medium;
-
-    margin-top: 5px;
-}
-
-input {
-    background-color: #dddddd;
-    height: 30px;
-    width: 70%;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 0;
-    font-size: larger;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: medium;
-}
-
-.dateInput {
-    font-size: larger;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: medium;
-}
+  
+  /* Styling for the container of the medicine types */
+  .medicineTypesContainer {
+    display: grid; /* Display is set to grid */
+    flex-wrap: wrap; /* Items wrap to the next line when necessary */
+    grid-template-columns: 20% 20%; /* Columns are set to 20% of the parent container each */
+    align-self: center; /* Items are aligned to the center */
+    position: relative; /* Positioning is relative */
+  }
+  
+  /* Styling for each type box */
+  .typeBox {
+    flex: 1 0 calc(25% - 10px); /* Flexbox styling to make sure each item occupies equal space */
+    margin: 5px; /* Margin is set to 5 pixels */
+    background: #cccccc; /* Background color is set to light gray */
+    text-align: center; /* Text is centered */
+    border-radius: 3px; /* Border radius is set to 3 pixels */
+    width: 90%; /* Width is set to 90% of the parent container */
+    font-size: larger; /* Font size is set to larger */
+    height: 30px; /* Height is set to 30 pixels */
+  }
+  
+  /* Styling for form labels */
+  .formLabel {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font family is set to Segoe UI, Tahoma, Geneva, Verdana or sans-serif */
+    font-size: medium; /* Font size is set to medium */
+    margin-top: 5px; /* Top margin is set to 5 pixels */
+  }
+  
+  /* Styling for input elements */
+  input {
+    background-color: #dddddd; /* Background color is set to light gray */
+    height: 30px; /* Height is set to 30 pixels */
+    width: 70%; /* Width is set to 70% of the parent container */
+    padding-left: 10px; /* Left padding is set to 10 pixels */
+    padding-right: 10px; /* Right padding is set to 10 pixels */
+    margin-top: 0; /* Top margin is set to 0 */
+    font-size: larger; /* Font size is set to larger */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font family is set to Segoe UI, Tahoma, Geneva, Verdana or sans-serif */
+    font-size: medium; /* Font size is set to medium */
+  }
+  
+  /* Styling for date inputs */
+  .dateInput {
+    font-size: larger; /* Font size is set to larger */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font family is set to Segoe UI, Tahoma, Geneva, Verdana or sans-serif */
+    font-size: medium; /* Font size is set to medium */
+  }
+  

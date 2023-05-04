@@ -1,3 +1,4 @@
+/*Styles for navigation bar*/
 .NavigationBar{
     width: 80%;
     height: 100px; /* set a fixed height for the navigation bar */
@@ -7,17 +8,18 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 30px;
-    
+    margin-top: 30px;   
 }
+
+/*Pseudo-element to clear floats*/
 .NavigationBar:after {
     content: "";
     display: table;
     clear: both;
-    text-align: center;
-    
+    text-align: center;   
 }
 
+/*Styles for each navigation item*/
 .NavItem {
     float: left;
     width: 33.33%;
@@ -27,15 +29,16 @@
     justify-content: center;
     align-items: center;
     font-size: 28px;
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
 
+/*Styles for links*/
 .Link{
     text-decoration: none;
     color: black;
 }
 
+/*Styles for sign-in button*/
 .SignIn{
     color: white
 }
